@@ -1,7 +1,7 @@
 
 ---
 
-### 2. README for CardioExplain (Project 2)
+###  README for CardioExplain 
 Create a new file named **`README.md`** inside your `CardioExplain` folder, paste this content inside, and save:
 
 ```markdown
