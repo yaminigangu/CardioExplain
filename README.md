@@ -1,5 +1,10 @@
 # ❤️ CardioExplain: Explainable AI (XAI) for Cardiovascular Risk Prediction
 
+📄 **[Read the Full Research Paper (PDF)](./CardioExplain_Research_Paper.pdf)**  
+📄 **[View LaTeX Source Code](./cardioexplain_ieee.tex)**
+
+---
+
 **CardioExplain** is an advanced clinical decision-support tool that predicts cardiovascular disease risk with high accuracy and provides transparent, mathematically justified explanations using **SHAP** and **LIME**.
 
 ---
@@ -7,7 +12,7 @@
 ## 📝 Abstract
 While machine learning models achieve high accuracy in predicting cardiovascular risks, their adoption in clinical practice is limited because they act as "black boxes." Doctors cannot ethically or legally act on a prediction without understanding the underlying medical reasoning. 
 
-CardioExplain bridges the gap between high accuracy and interpretability. We train an optimized **XGBoost Classifier** on the UCI Cleveland Heart Disease dataset, achieving **90.16% Accuracy** and a **0.96 ROC-AUC score**. To make the model transparent, we implement a dual-explainability framework: **SHAP** (Shapley Additive exPlanations) for population-level (global) feature importances and local risk contributions, and **LIME** (Local Interpretable Model-agnostic Explanations) for patient-specific (local) risk justifications. This transparency builds clinical trust and enables personalized medical interventions.
+CardioExplain bridges the gap between high accuracy and interpretability. We train an optimized **XGBoost Classifier** on the UCI Cleveland Heart Disease dataset, achieving a state-of-the-art predictive accuracy of **90.16%** and a **0.96 ROC-AUC score**. To make the model transparent, we implement a dual-explainability framework: **SHAP** (Shapley Additive exPlanations) for population-level (global) feature importances and local risk contributions, and **LIME** (Local Interpretable Model-agnostic Explanations) for patient-specific (local) risk justifications. This transparency builds clinical trust and enables personalized medical interventions.
 
 ---
 
